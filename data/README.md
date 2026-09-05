@@ -20,8 +20,9 @@ Raw and processed datasets are deliberately excluded from Git because they can b
 | Dataset ID | `42db041f-7aaf-4ab4-961f-2a12096861e7` |
 | Food-price resource ID | `12b51155-0cd3-4806-9924-61ede4077591` |
 | Format | CSV with Humanitarian Exchange Language tags |
-| Approximate size | Approximately 6–7 MB; exact size is recorded after each download |
-| Time coverage | 15 January 2002 to 15 April 2026 |
+| Verified downloaded size | 9.49 MiB (9,948,580 bytes) |
+| Verified raw row count | 81,534 observations |
+| Verified time coverage | 15 January 2002 to 15 July 2026 |
 | Expected update frequency | Monthly, although actual updates may occur more or less frequently |
 | Latest source-page modification observed | 30 August 2026 |
 | Licence | Creative Commons Attribution for Intergovernmental Organisations |
