@@ -1,54 +1,28 @@
 \# Problem Definition
 
-
-
 \## Project
-
-
 
 Nigeria Food Procurement Intelligence Agent
 
-
-
 \## Background
-
-
 
 Nigerian restaurants, caterers and small food retailers must purchase food commodities while managing changing prices, limited budgets and purchasing deadlines.
 
-
-
 Procurement decisions may depend on recent supplier prices, informal market knowledge and manual comparisons. Historical public data could provide additional evidence about price movements, seasonality and uncertainty.
-
-
 
 This project treats that business need as a hypothesis to be tested. Direct interviews with Nigerian food businesses would still be required before claiming that the final product solves their complete procurement process.
 
-
-
 \## Decision to Improve
-
-
 
 The system should help a user answer:
 
-
-
 > Given my food basket, budget, preferred location and purchasing deadline, which commodities should I buy now, monitor or postpone?
-
-
 
 The system will provide decision support. It will not make purchases or guarantee future prices.
 
-
-
 \## Intended Users
 
-
-
 The initial users are:
-
-
 
 \- Small restaurants
 
@@ -60,15 +34,9 @@ The initial users are:
 
 \- Business owners who purchase recurring food supplies
 
-
-
 \## Current Project Inputs
 
-
-
 The first version will use:
-
-
 
 \- Public historical food-price observations
 
@@ -82,19 +50,11 @@ The first version will use:
 
 \- Clearly labelled synthetic procurement baskets
 
-
-
 No employer, customer or confidential information will be used.
-
-
 
 \## Expected Outputs
 
-
-
 The completed system should provide:
-
-
 
 \- Historical price trends
 
@@ -110,15 +70,9 @@ The completed system should provide:
 
 \- Human approval before any proposed action
 
-
-
 \## Main Questions
 
-
-
 The project should answer:
-
-
 
 1\. Which Nigerian markets and commodities have sufficient historical coverage?
 
@@ -134,15 +88,9 @@ The project should answer:
 
 7\. When is the available evidence too weak to support a recommendation?
 
-
-
 \## Minimum Viable Product Scope
 
-
-
 The first complete version will:
-
-
 
 \- Reproducibly acquire the public dataset
 
@@ -162,15 +110,9 @@ The first complete version will:
 
 \- Provide a small public demonstration application
 
-
-
 \## Out of Scope
 
-
-
 The first version will not:
-
-
 
 \- Guarantee future market prices
 
@@ -190,19 +132,11 @@ The first version will not:
 
 \- Include confidential employer or customer data
 
-
-
 \## Analytical Framing
-
-
 
 For a selected commodity and market, the project will model price observations over time.
 
-
-
 A useful model must improve on simple alternatives such as:
-
-
 
 \- Using the most recently observed price
 
@@ -210,19 +144,11 @@ A useful model must improve on simple alternatives such as:
 
 \- Using the price observed during the same period in the previous year
 
-
-
 Recommendations will consider expected price movement, uncertainty and data quality. A forecast will not automatically become a recommendation.
-
-
 
 \## Success Criteria
 
-
-
 The project will be considered successful when:
-
-
 
 \- Data acquisition is reproducible
 
@@ -242,15 +168,9 @@ The project will be considered successful when:
 
 \- No employer, client or confidential information is present
 
-
-
 \## Key Limitations
 
-
-
 The public dataset may contain:
-
-
 
 \- Missing months
 
@@ -265,7 +185,5 @@ The public dataset may contain:
 \- Market-level rather than supplier-level prices
 
 \- No transport, storage or food-quality information
-
-
 
 These limitations must be considered before interpreting model results.
